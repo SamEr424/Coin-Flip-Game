@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coin Flip</title>
+    <style>
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .heads {
+            width: 100px;
+            height: 100px;
+            
+        }
+        .tails {
+            width: 100px;
+            height: 100px;
+            
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="stats">
+            <p id="heads-count">Heads: 0</p>
+            <p id="tails-count">Tails: 0</p>
+        </div>
+        <div class="coin" id="coin">
+            <div class="heads">
+                <img src="https://images.unsplash.com/photo-1589038713484-37719951c02d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80">
+            </div>
+            <div class="tails">
+                <img src="https://images.unsplash.com/photo-1621501103258-3e135c8c1fda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80">
+            </div>
+                
+        </div>
+        <div class="buttons">
+            <button id="flip-button">
+                Flip Coin
+            </button>
+            <button id="reset-button">
+                Reset
+            </button>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
